@@ -6,15 +6,13 @@ import { AppComponent } from './app.component';
 import { TextComponent } from './text/text.component';
 import { HeaderComponent } from './header/header.component';
 import { FormComponent } from './form/form.component';
-import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TextComponent,
     HeaderComponent,
-    FormComponent,
-    ImageComponent
+    FormComponent
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,13 @@ h1 {
 }
 
 .main_div {
-    margin: 20px;
-    border: solid black 2px;
+    margin: 0px;
+    border: solid black 1px;
+    background-image: url(src\assets\images\bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center; 
 }

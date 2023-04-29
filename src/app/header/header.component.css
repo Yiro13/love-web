@@ -1,6 +1,10 @@
 header {
     background-color:  #CC0033;
     height: 50px;
-    border: solid black 2px;
+}
+
+div {
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
