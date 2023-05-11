@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  video(): void{
+    const youtubeUrl = 'https://youtu.be/6q8jm0Lu7GU'; 
+    window.open(youtubeUrl, '_blank');
+  }
 }

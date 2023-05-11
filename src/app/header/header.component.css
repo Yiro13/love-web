@@ -1,5 +1,6 @@
 header {
-    background-color:  #CC0033;
+    background: rgb(182,69,97);
+    background: linear-gradient(90deg, rgb(172, 21, 59) 0%, rgba(221,10,62,1) 50%, rgba(204,0,51,1) 100%); 
     height: 50px;
 }
 

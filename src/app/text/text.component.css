@@ -4,7 +4,8 @@ h1 {
 
 .main_div {
     margin: 0px;
-    border: solid black 1px;
+    border: none;
+    border-bottom: none;
     background-image: url(src\assets\images\bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,4 +13,12 @@ h1 {
     display: flex;
     justify-content: center; /* centra horizontalmente */
     align-items: center; 
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 5em;
+    color: rgb(255, 254, 254);
+    text-shadow: black 0.1em 0.1em 0.2em
 }
